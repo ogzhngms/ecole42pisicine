@@ -26,7 +26,7 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-int main(void)
+/*int main(void)
 {
 	char str1[] = "oguzhan";
 	char str2[] = "nahzugo";
@@ -35,4 +35,4 @@ int main(void)
 	ft_strcpy(str1, str2);
 	printf("%s\n", str1);
 	return (0);
-}
+}*/
