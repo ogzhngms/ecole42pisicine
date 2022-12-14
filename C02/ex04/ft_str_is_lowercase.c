@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 16:42:44 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/13 16:52:25 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/13 10:40:09 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/13 11:05:54 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_str_is_lowercase(char *str)
 {
-	int		i;
+	int	i;
 	char	b;
 	bool	sonuc;
 
