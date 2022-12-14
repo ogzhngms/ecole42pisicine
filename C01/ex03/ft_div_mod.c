@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_div_mod.c                                       :+:      :+:    :+:   */
+/*  ft_div_mod.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 13:52:48 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/12 13:52:50 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/12 19:36:02 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/12 19:36:02 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,18 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 		*mod = a % b;
 	}
 }
+/*int		main(void)
+{
+	int a;
+	int b;
+	int div;
+	int mod;
+
+	a = 10;
+	b = 5;
+	div = 0;
+	mod = 0;
+	ft_div_mod(a, b, &div, &mod);
+	printf("%d\n%d\n", div, mod);
+	return (0);
+}/*
