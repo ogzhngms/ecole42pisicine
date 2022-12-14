@@ -3,27 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 14:45:35 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/12 14:45:37 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/12 19:36:43 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/12 21:59:45 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int	swap;
-	int	i;
-	int	j;
+	int	o;
+	int	g;
 
-	j = size - 1;
-	i = 0;
-	while (i < (size / 2))
+	g = size - 1;
+	o = 0;
+	while (o < (size / 2))
 	{
-		swap = tab[i];
-		tab[i] = tab[j];
-		tab[j] = swap;
-		i++;
-		j--;
+		swap = tab[o];
+		tab[o] = tab[g];
+		tab[g] = swap;
+		o++;
+		g--;
 	}
 }
+/*int		main(void)
+{
+	int tab[] = {0, 1, 2, 3, 4, 5};
+	int size = 6;
+
+	ft_rev_int_tab(tab, size);
+	return (0);
+}*/
