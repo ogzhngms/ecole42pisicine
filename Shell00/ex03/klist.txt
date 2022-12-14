@@ -1,0 +1,5 @@
+Credentials cache: API:889B7AD9-FCE5-4F6B-841C-A880ED14549F
+        Principal: edogrul@42KOCAELI.COM.TR
+
+  Issued                Expires               Principal
+Sep 30 14:38:00 2021  Oct  1 00:38:00 2021  krbtgt/42KOCAELI.COM.TR@42KOCAELI.COM.TR
