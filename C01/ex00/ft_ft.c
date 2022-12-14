@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 14:49:20 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/12 16:43:11 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/11 20:31:28 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/11 20:31:28 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,3 +14,9 @@ void	ft_ft(int *nbr);
 {
 	*nbr = 42;
 }
+
+////////////////////////////////pointer is one of the most important////////////////////////////////////////////
+
+////some resources to help you////
+//https://www.w3schools.com/c/c_pointers.php
+//https://www.javatpoint.com/c-pointers
