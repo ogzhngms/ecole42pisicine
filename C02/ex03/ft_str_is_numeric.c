@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 16:38:33 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/13 16:38:36 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/13 10:40:03 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/13 11:05:29 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdbool.h>
+#include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {
