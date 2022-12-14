@@ -3,20 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 13:55:12 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/12 16:50:10 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/12 19:36:43 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/12 21:56:35 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-v	ft_strlen(char *str)
-{
-	int	a;
+#include <stdio.h>
 
-	a = 0;
-	while (str[a] != '\0')
+int	ft_strlen(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		a++;
+		i++;	
 	}
-	return (a);
+	return (i);
 }
+
+/*int	main(void)
+{
+	char *str;
+	
+	str = "buguncokguzelsin";
+	printf("%d", ft_strlen(str));
+	return (0);
+}*/
