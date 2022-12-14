@@ -14,4 +14,4 @@ https://www.w3schools.com/c/c_intro.php
 
 https://www.javatpoint.com/c-programs
 
-https://zoomquilt.org/ (get some rest) ??press f11??
+https://zoomquilt.org/ (get some rest) 
