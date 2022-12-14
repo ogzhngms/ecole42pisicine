@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 16:48:24 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/13 16:48:28 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/13 10:40:09 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/13 11:06:10 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,10 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
+/*int main()
+{
+    char str[] = "asdZXC 932";
+    ft_strupcase(str);
+    
+    printf(str);
+}*/
