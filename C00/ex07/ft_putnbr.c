@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <dogrulenes0@gmail.com>            +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/26 20:31:56 by edogrul           #+#    #+#             */
-/*   Updated: 2021/12/26 20:31:56 by edogrul          ###   ########.fr       */
+/*   Created: 2022/10/11 20:43:35 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/11 20:43:35 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 void	ft_putchar(char c)
