@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 13:54:05 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/12 13:54:06 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/12 19:36:43 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/12 19:36:43 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,9 @@ void	ft_putstr(char *str)
 		str++;
 	}	
 }
+/*int main(){
+  char str[] = "hello";
+  ft_putstr(str);
+  
+  return (0);
+}*/
