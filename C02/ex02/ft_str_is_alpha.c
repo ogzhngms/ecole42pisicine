@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 11:15:10 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/13 17:31:36 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/13 10:39:23 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/13 11:05:19 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdbool.h>
+//#include <stdio.h>//
 
 int	ft_str_is_alpha(char *str)
 {
-	int		i;
-	char	b;
+	int i;
+	char b;
 
 	i = 0;
 	while (true)
@@ -32,3 +33,25 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
+
+/*int main()
+{
+    int result;
+
+    result = ft_str_is_alpha("oguzhan");
+    printf("Result: %d\n", result);
+
+    result = ft_str_is_alpha("ÇOK");
+    printf("Result: %d\n", result);
+
+    result = ft_str_is_alpha("TADLI010102");
+    printf("Result: %d\n", result);
+
+    result = ft_str_is_alpha("999");
+    printf("Result: %d\n", result);
+
+    result = ft_str_is_alpha("");
+    printf("Result: %d\n", result);
+    
+    return 0;
+}*/
