@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <dogrulenes0@gmail.com>            +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 11:44:19 by edogrul           #+#    #+#             */
-/*   Updated: 2021/12/26 20:32:35 by edogrul          ###   ########.fr       */
+/*   Created: 2022/10/13 10:36:43 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/13 11:02:15 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdbool.h>
+#include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -24,4 +24,15 @@ char	*ft_strcpy(char *dest, char *src)
 	}
 	dest[i] = '\0';
 	return (dest);
+}
+
+int main(void)
+{
+	char str1[] = "oguzhan";
+	char str2[] = "nahzugo";
+
+	printf("%s\n", str1);
+	ft_strcpy(str1, str2);
+	printf("%s\n", str1);
+	return (0);
 }
