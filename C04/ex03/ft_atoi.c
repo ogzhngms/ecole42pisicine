@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/17 18:12:55 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/17 18:12:57 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/14 22:41:09 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/15 01:11:51 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi(char *str)
 {
-	int	d;
-	int	s;
+	int g;
+	int z;
 
-	d = 1;
-	s = 0;
+	g = 1;
+	z = 0;
 	while (*str == '\t' || *str == '\n' || *str == '\v'
 		|| *str == '\f' || *str == '\r' || *str == ' ')
 		str++;
@@ -24,7 +24,7 @@ int	ft_atoi(char *str)
 	{
 		if (*str == '-')
 		{
-			d = d * -1;
+			g = g * -1;
 			str++;
 		}
 		else
@@ -32,8 +32,8 @@ int	ft_atoi(char *str)
 	}
 	while (*str >= '0' && *str <= '9')
 	{
-		s = (s * 10) + (*str - '0');
+		g = (z * 10) + (*str - '0');
 		str++;
 	}
-	return (s * d);
+	return (z * g);
 }
