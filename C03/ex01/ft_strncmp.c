@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                        :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/20 19:48:52 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/20 19:48:53 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/14 22:41:09 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/14 23:16:48 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (s1[i]-s2[i]);
 }
 
-int main()
+/*int main()
 {
-	char s1[]="Enes";
-	char s2[]="Ened";
+	char s1[]="Oguzhn";
+	char s2[]="Oguz";
 
 	printf("%d",ft_strncmp(s1,s2,3));
-}
+}*/
