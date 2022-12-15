@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/18 19:13:02 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/18 19:13:03 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/16 14:31:15 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/16 14:31:15 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_sqrt(int nb)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	if (nb < 1)
