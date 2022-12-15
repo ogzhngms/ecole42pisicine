@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 16:50:28 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/13 16:50:29 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/13 10:40:09 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/13 11:06:36 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,12 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
+
+/*#include<stdio.h>
+int main()
+{
+    char a[] = "PASQUALE SAYS HI";
+    printf("%s\n", ft_strlowcase(a));
+    return (0);
+}
+*/
