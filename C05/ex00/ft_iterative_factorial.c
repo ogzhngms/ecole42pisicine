@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/18 19:11:34 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/18 19:11:38 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/16 14:31:15 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/16 14:31:15 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
