@@ -33,7 +33,7 @@ char	*ft_strlowcase(char *str)
 /*#include<stdio.h>
 int main()
 {
-    char a[] = "PASQUALE SAYS HI";
+    char a[] = "HELLOGUYSOG";
     printf("%s\n", ft_strlowcase(a));
     return (0);
 }
