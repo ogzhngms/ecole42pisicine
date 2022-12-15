@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/20 19:48:52 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/20 19:48:53 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/14 22:41:09 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/14 23:16:52 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,12 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 
-int main()
+/*int main()
 {
-	char dest[30]="KemalAhmet";
-	char src[]="Buraya";
+	char dest[30]="OguzhanGumus";
+	char src[]="Here";
 
 	ft_strncat(dest,src,3);
 
 	printf("%s",dest);
-}
+}*/
