@@ -1,11 +1,11 @@
-                                                                 SHELL COMMANDS
+                                                            SHELL COMMANDS
 https://bilgegunluk.com/ssh-shell-komutlari/ (tr)
 
 https://www.geeksforgeeks.org/basic-shell-commands-in-linux/ (en)
 
                                                                   
                                                                   
-                                                                  IMPORTANT LİNKS
+                                                            IMPORTANT LİNKS
 https://pythontutor.com/
 
 https://www.onlinegdb.com/online_c_compiler
