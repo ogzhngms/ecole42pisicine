@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_program_name.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edogrul <enes.dogrul41@gmail.com>          +#+  +:+       +#+        */
+/*   By: oggumus <oguzhan.gumus.08@hotmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/19 14:52:55 by edogrul           #+#    #+#             */
-/*   Updated: 2021/10/19 14:52:56 by edogrul          ###   ########.tr       */
+/*   Created: 2022/10/18 14:31:15 by oggumus           #+#    #+#             */
+/*   Updated: 2022/10/18 16:45:15 by oggumus          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
